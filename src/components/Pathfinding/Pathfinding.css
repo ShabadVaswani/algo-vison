@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap');
+
+@media (max-width: 650px) {
+            body{
+        margin-top: 0em;
+        font-size: 22px;
+        font-family: 'Roboto', calibri;
+      }
+      #header{
+        background-color: white;
+        overflow: hidden;
+        height: 9em;
+        position: fixed;
+        width: 100%;
+        top:0;
+      }
+        #header-img{
+        width:80%;
+      }
+
+
+    }
+
+    @media ( min-width : 651px){
+      full{
+        margin-top: 99px;
+      }
+      body{
+        margin-top: 19px;
+        text-align: center;
+        font-family: 'Roboto', calibri;
+    }
+    #header{
+      background-color: white;
+      height: 30px;
+      position: fixed;
+      width: 97%;
+      top:0;
+      padding: 11px;
+      
+    }
+      .h2{
+        margin-top: 7rem;
+      }
+    .eoh{
+      display: flex;
+    }
+    #header-img{
+      width:300px;
+      float: left;
+    }
+    .nav-link{
+      float: right;
+    }
+      input{
+        margin: 10px;
+      }
+      #email{
+        border: none;
+        padding: 6px 19px 6px 11px;
+        border-radius: 2px;
+        background-color: grey;
+        color: black;
+      }
+      ::placeholder {
+  color: white;
+}
+      #submit{
+        font-size: 19px;
+        border: none;
+        margin-top: 3rem;
+        padding: 1px 19px;
+        border-radius: 2px;
+        background-color: black;
+        font-family: 'oswald';
+        color: #f1c40f;
+      }
+ #submit:hover {
+  background-color: orange;
+   color: white;
+  transition: background-color 1s,color 1s;
+}
+      .eoh:hover {
+  
+   color: orange;
+  transition: color 1s;
+}
+      .how{
+        padding: 3px 26%;
+        margin: 0px 30px 99px;
+        display: flex;
+        
+      }
+      .desc{
+        margin-left: 44px;
+      }
+      
+    }
+    

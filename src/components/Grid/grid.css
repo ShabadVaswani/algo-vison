@@ -1,0 +1,35 @@
+.board{
+    width:100%;
+    height:calc(100vh - min(20vh , 100px));
+    background:#e9e6d2;
+    display:grid;
+    grid-template-rows: repeat(25 , 1fr);
+    grid-template-columns: repeat(50 , 1fr);
+    gap: 2px;
+    
+}
+
+.board .cell{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.wall {
+    background:#484237 !important
+}
+
+.visited{
+    background:#e9e6d2!important;
+    transition:all 8ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  
+}
+
+.path{
+    background:#d5cbbc !important ;
+    transition:all 8ms cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    
+}
+

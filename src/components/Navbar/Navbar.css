@@ -1,0 +1,33 @@
+.navbar{
+    width:100%;  
+    height:min(20vh , 100px);
+    background:#FAF9F0;
+}
+
+
+.btn{
+    background-color:#8A847A;
+    border-color: antiquewhite;
+
+}
+
+.btn:hover{
+    background-color:#484237;
+    border-color: antiquewhite;
+
+}
+
+.btnstr{
+    background-color:#484237;
+    font-size: 2rem;
+
+}
+
+.btnstr:hover{
+    background-color:#171511;
+
+}
+
+.navbar .selected {
+    box-shadow: #484237 3px 3px 6px 0px inset, #8A847A -3px -3px 6px 1px inset;
+}
