@@ -11,7 +11,7 @@ function Dashboard() {
   const boxAnimation = useSpring({
     background:
       (hoveredItem === "sorting" && clicked) || hoveredItem === "binary"
-        ? "#33ff57"
+        ? "#4fd6ff"
         : clicked
         ? "#ff5733"
         : "#0074d9",
@@ -83,7 +83,7 @@ function Dashboard() {
               className="item"
               style={{ color: clicked ? "#33ff57" : "#FF5733" }}
             >
-              <b>N Queen problem</b>
+              <b>Sorting Visualizer</b>
             </p>
           )}
         </div>
@@ -112,13 +112,12 @@ function Dashboard() {
           onClick={() => setClicked(!clicked)}
         >
           <p>Tower of Hanoi</p>
-          <a href="/pathfinder">
+          <a href="https://shabadvaswani.github.io/Hanoicp3/">
           <animated.button className="dashboard-button" style={buttonAnimation}>
             Lets Go
           </animated.button>
           </a>
         </animated.div>
-
         <animated.div
           className="box"
           style={boxAnimation}
@@ -126,10 +125,15 @@ function Dashboard() {
           onMouseLeave={() => setHoveredItem(null)}
           onClick={() => setClicked(!clicked)}
         >
-          <p>N Queen problem</p>
+          
+          <p>Sorting Visualizer</p>
+          <a href = "https://shabadvaswani.github.io/Sort/">
+
           <animated.button className="dashboard-button" style={buttonAnimation}>
             Lets Go
           </animated.button>
+          </a>
+
         </animated.div>
       </div>
       <div className="centered-title">

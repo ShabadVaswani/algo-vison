@@ -1,12 +1,17 @@
 /* Dashboard.css */
 
+
+
 .dashboard {
+  margin:0;
+  padding:0;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: linear-gradient(180deg, #ffffff, #77c6d3);
+  background: linear-gradient(180deg, #fefcfc, #091417);
   color: #000000;
   font-family: Arial, sans-serif;
 }
@@ -58,7 +63,7 @@
 .gradient-text {
   background: linear-gradient(
     45deg,
-    #76a3ae,
+    #85D6A0,
     #62d8ca
   ); /* Apply gradient color */
   -webkit-background-clip: text;
@@ -103,7 +108,7 @@
   border: 3px solid #000;
   border-radius: 8px;
   padding: 12px 24px;
-  background-color: #0056b3;
+  background-color: #8ce4d7;
   color: #fff;
   font-size: 16px;
   cursor: pointer;

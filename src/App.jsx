@@ -19,10 +19,7 @@ const router = createBrowserRouter([
     path: "pathfinder",
     element: <Pathfinding></Pathfinding>
   },
-  // {
-  //   path: "hanoi",
-  //   element: <Hanoi></Hanoi>
-  // },
+
 ]);
 
 
